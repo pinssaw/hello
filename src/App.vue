@@ -42,6 +42,7 @@ const action = (index) => {
   <main>
     <!-- <TheWelcome /> -->
     <!-- <span>{{ list }}</span> -->
+    <h1>hello</h1>
     <div v-for="(item, index) of list" :key="item.id">
       <span>{{ item.label }}: {{ item.value }}</span>
       <button @click="action(index)">add</button>
